@@ -8,6 +8,10 @@ const game = {
       this.secretNum =
         Math.floor(Math.random() * (this.biggestNum - this.smallestNum + 1)) +
         this.smallestNum
+        let guess;
+        while(this.guess !== this.secretNum){
+        
+        }
     },
     getGuess: function(){
         let getGuess = parseInt(prompt("Enter a guess between 1 - 100"))
